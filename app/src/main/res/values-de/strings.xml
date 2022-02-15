@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="credito_residuo_e_offerta_attiva">Restguthaben und Aktives Angebot</string>
+    <string name="info_numero_sim">Informationen zur SIM-Nummer</string>
+    <string name="button_services">Kundendienst</string>
+    <string name="button_crediti">Kredite</string>
+    <string name="questa_app_stata_creata_da_antonio_stasio">Diese App wurde von Antonio Stasio erstellt</string>
+    <string name="astasio_gmail_com">astasio@gmail.com</string>
+</resources>
