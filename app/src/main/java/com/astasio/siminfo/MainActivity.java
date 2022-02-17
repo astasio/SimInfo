@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button_num);
         Button button2 = findViewById(R.id.button_credit);
         Button button3 = findViewById(R.id.button_services);
-        Button button4 = findViewById(R.id.button_crediti);
+        Button button4 = findViewById(R.id.button4);
+        Button button5 = findViewById(R.id.button5);
         button.setOnClickListener(
                 v -> {
                     //codice USSD
@@ -49,9 +50,12 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
         button4.setOnClickListener(
+                v -> startActivity(new Intent(MainActivity.this,
+                        MainActivity2.class)));
+        button5.setOnClickListener(
                 v -> {
-                        startActivity(new Intent(MainActivity.this,
-                                MainActivity2.class));
+                    startActivity(new Intent(MainActivity.this,
+                            MainActivity3.class));
 
                 });
     }

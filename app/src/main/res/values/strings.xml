@@ -8,4 +8,8 @@
     <string name="questa_app_stata_creata_da_antonio_stasio">this app was created by Antonio Stasio</string>
     <string name="astasio_gmail_com" translatable="false">astasio@gmail.com</string>
     <string name="indietro">"backards "</string>
+    <string name="button_ricarica">Phone top-up</string>
+    <string name="inserisci_il_pin_di_ricarica">Inserisci il PIN di ricarica</string>
+    <string name="pin" translatable="false">PIN</string>
+    <string name="ricarica_sim">Ricarica SIM</string>
 </resources>
