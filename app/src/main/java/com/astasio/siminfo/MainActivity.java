@@ -54,8 +54,13 @@ public class MainActivity extends AppCompatActivity {
                         MainActivity2.class)));
         button5.setOnClickListener(
                 v -> {
-                    startActivity(new Intent(MainActivity.this,
-                            MainActivity3.class));
+                    //406040
+                    String UssdCode = "406040";
+                    if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                        ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE}, 1);
+                    } else {
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + UssdCode)));
+                    }
 
                 });
     }
