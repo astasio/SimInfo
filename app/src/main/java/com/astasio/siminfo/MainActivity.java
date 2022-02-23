@@ -21,16 +21,13 @@ public class MainActivity extends AppCompatActivity {
         Button button3 = findViewById(R.id.button_services);
         Button button4 = findViewById(R.id.button4);
         Button button5 = findViewById(R.id.button5);
-        TextToSpeech t1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-            @Override
-            public void onInit(int status) {
-            }
+        TextToSpeech t1 = new TextToSpeech(getApplicationContext(), status -> {
         });
 
         button.setOnClickListener(
                 v -> {
                     t1.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
-                    //codice USSD
+                    /* code USSD */
                     String UssdCode = "*111" + Uri.encode("#");
                     if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE}, 1);
