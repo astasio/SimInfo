@@ -4,9 +4,7 @@
     <string name="info_numero_sim">Informationen zur SIM-Nummer</string>
     <string name="button_services">Kundendienst</string>
     <string name="button_crediti">Voicemail</string>
-    <string name="questa_app_stata_creata_da_antonio_stasio">Diese App wurde von Antonio Stasio erstellt</string>
-    <string name="indietro">Hintern</string>
     <string name="button_ricarica">Handy aufladen</string>
     <string name="inserisci_il_pin_di_ricarica">Geben sie die lade-PIN ein</string>
-    <string name="ricarica_sim">Ricarica SIM</string>
+    <string name="ricarica_sim">sim aufladen</string>
 </resources>

@@ -4,8 +4,6 @@
     <string name="info_numero_sim">Info Numero SIM</string>
     <string name="button_services">Servizio Clienti</string>
     <string name="button_crediti">Segreteria Telefonica</string>
-    <string name="questa_app_stata_creata_da_antonio_stasio">Questa app è stata creata da Antonio Stasio</string>
-    <string name="indietro">Indietro</string>
     <string name="button_ricarica">Ricarica Telefonica</string>
     <string name="inserisci_il_pin_di_ricarica">Inserisci il PIN di ricarica</string>
     <string name="ricarica_sim">Ricarica SIM</string>

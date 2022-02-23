@@ -1,15 +1,11 @@
 <resources>
     <string name="SimInfo" translatable="false">SimInfo</string>
-    <string name="todo" translatable="false">TODO</string>
     <string name="credito_residuo_e_offerta_attiva">Residual Credit and Active Offer</string>
     <string name="info_numero_sim">SIM Number Info</string>
     <string name="button_services">Customer Care</string>
     <string name="button_crediti">voice mail</string>
-    <string name="questa_app_stata_creata_da_antonio_stasio">this app was created by Antonio Stasio</string>
-    <string name="astasio_gmail_com" translatable="false">astasio@gmail.com</string>
-    <string name="indietro">"backards "</string>
     <string name="button_ricarica">Phone top-up</string>
-    <string name="inserisci_il_pin_di_ricarica">Inserisci il PIN di ricarica</string>
+    <string name="inserisci_il_pin_di_ricarica">Enter the charging PIN</string>
     <string name="pin" translatable="false">PIN</string>
-    <string name="ricarica_sim">Ricarica SIM</string>
+    <string name="ricarica_sim">SIM top-up</string>
 </resources>

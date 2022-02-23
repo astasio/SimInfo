@@ -23,12 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Button button5 = findViewById(R.id.button5);
         TextToSpeech t1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
-
             public void onInit(int status) {
-                // if (status != TextToSpeech.ERROR) {
-                //   t1.setLanguage(Locale.ITALIAN);
-                // Voice v=new Voice("it-IT-x-sfg#male_1-local",new Locale("it","IT"),400,200,true,null);
-                // t1.setVoice(v);
             }
         });
 
