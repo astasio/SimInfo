@@ -7,4 +7,6 @@
     <string name="button_ricarica">Handy aufladen</string>
     <string name="inserisci_il_pin_di_ricarica">Geben sie die lade-PIN ein</string>
     <string name="ricarica_sim">sim aufladen</string>
+    <string name="button_config">Sim-Konfiguration</string>
+    <string name="voice_active">Stimme aktivieren</string>
 </resources>

@@ -7,4 +7,6 @@
     <string name="button_ricarica">Recharge téléphonique</string>
     <string name="inserisci_il_pin_di_ricarica">Entrez le code PIN de charge</string>
     <string name="ricarica_sim">Recharge SIM</string>
+    <string name="button_config">configuration de la carte SIM</string>
+    <string name="voice_active">activer la voix</string>
 </resources>

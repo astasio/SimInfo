@@ -92,7 +92,7 @@
                     app:srcCompat="@drawable/ic_action_recharge" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/button6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
@@ -116,6 +116,39 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
                     android:text="@string/button_crediti" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:srcCompat="@drawable/ic_action_config" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/button_config" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/check_voice"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/VoiceActiveLabel"
+                    android:text="Attiva la voce" />
 
             </TableRow>
         </TableLayout>

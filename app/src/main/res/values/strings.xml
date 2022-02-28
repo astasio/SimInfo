@@ -8,4 +8,6 @@
     <string name="inserisci_il_pin_di_ricarica">Enter the charging PIN</string>
     <string name="pin" translatable="false">PIN</string>
     <string name="ricarica_sim">SIM top-up</string>
+    <string name="button_config">sim configuration</string>
+    <string name="voice_active">activate the voice</string>
 </resources>
