@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(
                 v -> {
-                    if (check.isChecked() == true) {
+                    if (check.isChecked()) {
                         t1.speak(button.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
                     }
                     /* code USSD */
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         button2.setOnClickListener(
                 v -> {
-                    if (check.isChecked() == true) {
+                    if (check.isChecked()) {
                         t1.speak(button2.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
                     }
                     String UssdCode = "*123" + Uri.encode("#");
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         button3.setOnClickListener(
                 v -> {
-                    if (check.isChecked() == true) {
+                    if (check.isChecked()) {
                         t1.speak(button3.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
                     }                    //404040
                     String UssdCode = "404040";
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         button4.setOnClickListener(
                 v -> {
-                    if (check.isChecked() == true) {
+                    if (check.isChecked()) {
                         t1.speak(button4.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
                     }                    //406040
                     String UssdCode = "406040";
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         button6.setOnClickListener(
                 v -> {
-                    if (check.isChecked() == true) {
+                    if (check.isChecked()) {
                         t1.speak(button6.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
                     }
                     startActivity(new Intent(MainActivity.this,
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 });
         button5.setOnClickListener(
                 v -> {
-                    if (check.isChecked() == true) {
+                    if (check.isChecked()) {
                         t1.speak(button5.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
                     }
                     startActivity(new Intent(MainActivity.this,
