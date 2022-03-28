@@ -6,8 +6,10 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.text.method.LinkMovementMethod;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button button5 = findViewById(R.id.button5);
         Button button6 = findViewById(R.id.button6);
         CheckBox check = findViewById(R.id.check_voice);
+        setupHyperlink();
         TextToSpeech t1 = new TextToSpeech(getApplicationContext(), status -> {
         });
 
@@ -94,6 +97,11 @@ public class MainActivity extends AppCompatActivity {
                             MainActivity2.class));
 
                 });
+    }
+
+    private void setupHyperlink() {
+        TextView linkTextView = findViewById(R.id.activity_main_link);
+        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
 

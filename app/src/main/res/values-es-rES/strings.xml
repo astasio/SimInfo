@@ -9,4 +9,5 @@
     <string name="ricarica_sim">recargar sim</string>
     <string name="button_config">configuración de la tarjeta SIM</string>
     <string name="voice_active">activar la voz</string>
+    <string name="hyperlink">Si desea apoyar mi trabajo, \n considere una pequeña <a href="https://www.paypal.com/paypalme/stasioantonio"> donación </a></string>
 </resources>

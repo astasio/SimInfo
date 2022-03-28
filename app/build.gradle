@@ -7,10 +7,10 @@ android {
         applicationId "com.astasio.siminfo"
         minSdkVersion 16
         targetSdkVersion 31
-        versionCode 4
-        versionName '1.3.1'
+        versionCode 5
+        versionName '1.5'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        versionNameSuffix 'speak version'
+        versionNameSuffix 'speak_and_link_version'
     }
     buildTypes {
         release {
