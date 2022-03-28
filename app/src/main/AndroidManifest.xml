@@ -3,7 +3,6 @@
     package="com.astasio.siminfo">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission." />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
