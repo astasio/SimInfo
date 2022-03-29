@@ -3,10 +3,11 @@
     <string name="info_numero_sim">Numéro de carte SIM</string>
     <string name="credito_residuo_e_offerta_attiva">Crédit Résiduel et Offre Active</string>
     <string name="button_services">Service Client</string>
-    <string name="button_crediti">Crédits</string>
-    <string name="questa_app_stata_creata_da_antonio_stasio">cette application a été créée par Antonio Stasio</string>
-    <string name="indietro">en arrière</string>
+    <string name="button_crediti">messagerie vocale</string>
     <string name="button_ricarica">Recharge téléphonique</string>
     <string name="inserisci_il_pin_di_ricarica">Entrez le code PIN de charge</string>
     <string name="ricarica_sim">Recharge SIM</string>
+    <string name="button_config">configuration de la carte SIM</string>
+    <string name="voice_active">activer la voix</string>
+    <string name="hyperlink">Si vous souhaitez soutenir mon travail, \n veuillez considérer un petit <a href="https://www.paypal.com/paypalme/stasioantonio"> don </a></string>
 </resources>

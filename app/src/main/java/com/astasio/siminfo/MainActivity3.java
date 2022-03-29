@@ -1,19 +1,15 @@
 package com.astasio.siminfo;
 
-import static com.astasio.siminfo.R.id.button;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-
 import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 public class MainActivity3 extends AppCompatActivity {
 
@@ -26,11 +22,9 @@ public class MainActivity3 extends AppCompatActivity {
         button.setOnClickListener(
                 v -> {
                     //get PIN
-                    String text1 = (String) Pin.getText().toString();
-                    //codice USSD
+                    String text1 = Pin.getText().toString();
+                    //code USSD
                     String UssdCode = "*125*" + text1 + Uri.encode("#");
-                    //Toast.makeText(getApplicationContext(), UssdCode, Toast.LENGTH_SHORT).show();
-
                     if (ActivityCompat.checkSelfPermission(MainActivity3.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         ActivityCompat.requestPermissions(MainActivity3.this, new String[]{Manifest.permission.CALL_PHONE}, 1);
                     } else {

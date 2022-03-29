@@ -3,10 +3,11 @@
     <string name="info_numero_sim">SIM Number Info</string>
     <string name="credito_residuo_e_offerta_attiva">Residual Credit and Active Offer</string>
     <string name="button_services">Customer Care</string>
-    <string name="button_crediti">Credits</string>
-    <string name="questa_app_stata_creata_da_antonio_stasio">this app was created by Antonio Stasio</string>
-    <string name="indietro">"backards "</string>
+    <string name="button_crediti">voice mail</string>
     <string name="button_ricarica">Phone top-up</string>
     <string name="inserisci_il_pin_di_ricarica">Enter the charging PIN</string>
     <string name="ricarica_sim">SIM top-up</string>
+    <string name="button_config">sim configuration</string>
+    <string name="voice_active">activate the voice</string>
+    <string name="hyperlink">If you want to support my work, \n please consider a small <a href="https://www.paypal.com/paypalme/stasioantonio"> donation </a></string>
 </resources>
