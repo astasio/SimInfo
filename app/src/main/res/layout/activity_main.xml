@@ -28,11 +28,13 @@
 
             <TableRow
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:padding="5dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
                     android:contentDescription="@string/info_numero_sim"
                     app:srcCompat="@drawable/ic_action_sim" />
 
@@ -41,17 +43,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
+                    android:background="@color/colorPrimary"
                     android:text="@string/info_numero_sim"
                     tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="5dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
                     app:srcCompat="@drawable/ic_action_money" />
 
                 <Button
@@ -59,16 +64,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
+                    android:background="@color/colorPrimary"
                     android:text="@string/credito_residuo_e_offerta_attiva" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="5dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
                     app:srcCompat="@drawable/ic_action_customer" />
 
                 <Button
@@ -76,16 +84,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
+                    android:background="@color/colorPrimaryDark"
                     android:text="@string/button_services" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="5dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
                     app:layout_constraintStart_toStartOf="parent"
                     app:srcCompat="@drawable/ic_action_info" />
 
@@ -94,16 +105,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
+                    android:background="@color/colorPrimaryDark"
                     android:text="@string/button_crediti" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="5dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:srcCompat="@drawable/ic_action_recharge" />
 
@@ -112,16 +126,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
+                    android:background="@color/colorAccent"
                     android:text="@string/button_ricarica" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="5dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:srcCompat="@drawable/ic_action_config" />
 
@@ -130,6 +147,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
+                    android:background="@color/colorAccent"
                     android:text="@string/button_config" />
             </TableRow>
 
