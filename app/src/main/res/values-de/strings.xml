@@ -9,5 +9,5 @@
     <string name="ricarica_sim">sim aufladen</string>
     <string name="button_config">Sim-Konfiguration</string>
     <string name="voice_active">Stimme aktivieren</string>
-    <string name="hyperlink">Wenn Sie meine Arbeit unterstützen möchten, \n ziehen Sie bitte eine kleine <a href="https://www.paypal.com/paypalme/stasioantonio"> Spende </a> in Betracht</string>
+    <string name="hyperlink"><a href="https://astasio.github.io/SimInfo/">Danksagungen</a></string>
 </resources>
